@@ -1,0 +1,49 @@
+title: Yavaşlama Fonksiyonları Şeması
+description:
+  Doğru hafifletme fonksiyonunu seçerek animasyonu daha gerçekçi yapın.
+share:
+   Yavaşlama işlevleri, hareketin daha doğal olması için animasyon hızını belirtir.
+   Gerçek nesneler sadece sabit bir hızda hareket etmez ve anında başlamaz ve durmaz.
+   Bu sayfa, sağa sola kaydırma işlevini seçmenize yardımcı olur.
+
+about: !!format
+  ~Yavaşlatma Fonksiyonları (easing)~ bir parametrenin zaman içindeki değişim hızını belirtin.
+
+  Gerçek hayattaki nesneler anında başlamaz ve durmazlar ve sabit hızda neredeyse hiçbir zaman hareket etmezler.
+  Bir çekmeceyi açtığımızda, önce hızlı bir şekilde açarız ve çıktıkça yavaşlarız.
+  Zemine bir şey bırakın ve önce aşağıya doğru ivme kazanacak ve yere çarptıktan sonra tekrar sıçrayacaktır.
+
+  Bu sayfa, sağa sola kaydırma işlevini seçmenize yardımcı olur.
+
+easings:
+  css: Her yerde kullanılabilir
+  js: Sadece JavaScript'de
+
+howtos:
+  name: fonksiyonun adı
+  curve: bezier eğrisinin fonksiyonları
+  js: !!code
+    JQuery ile ^ jQuery Easing Eklentisi ^, animasyonu açıklayan en kolay yoldur.
+    Kolaylaştırma ismini (`easeInCirc` gibi) üçüncü argüman olarak .animate ()` işlevine geçirin veya onu 'yavaşlatma' seçeneğinin değeri olarak kullanın.
+  scss: !!code
+    Sass / SCSS animasyonları da tanımlayabilir!
+    Pusula `transition 've' animation 'özelliklerinden önce önekleri kaldırır,
+    <nobr> ve ^ Compass Ceaser ^ </ nobr> eklentisi, serbest bırakma işlevini adıyla (tam Bezier eğrilerini belirtmeden) geçirmenizi sağlar.
+  css: !!code
+    CSS özellikleri 'transition' ve 'animation', serbest bırakma fonksiyonunu seçmenize izin verir.
+  css_bad:
+    Ne yazık ki, tüm açısal boşlukları desteklemiyorlar ve arzulanan serbest bırakma fonksiyonunu kendiniz belirtmelisiniz (bir Bezier eğrisi olarak).
+  css_help:
+    Bezier eğrisi gösterimini göstermek için bir hızlanma fonksiyonu seçin.
+
+easing:
+  all_easings: Tüm fonksiyonlar
+  no_css: !!code
+    CSS'de desteklenmiyor. Ancak JS'de kullanabilirsiniz veya CSS Animasyon `@keyframes` ile yazabilirsiniz.
+  edit: ^Düzenle^ на cubic-bezier.com.
+
+opensource:
+  title: open source
+  translate: Siteyi kendi dilinizde çevirmeye ^Yardım et^
+
+author: Andrey Sitnik
